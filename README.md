@@ -1,5 +1,3 @@
-Here's a solid `README.md` for your project:  
-
 ---
 
 # RGB to Grayscale Converter (OpenCL)  
@@ -45,7 +43,7 @@ Run the program with an input image:
 ## OpenCL Kernel  
 The OpenCL kernel processes each pixel in parallel, using the formula:  
 \[
-\text{Gray} = 0.299R + 0.587G + 0.114B
+\Gray = 0.21R + 0.72G + 0.07B
 \]  
 This ensures a perceptually accurate grayscale conversion.  
 
@@ -56,5 +54,3 @@ Compared to CPU-based conversion, this OpenCL implementation significantly reduc
 This project is licensed under the MIT License.  
 
 ---
-
-Let me know if you want any modifications! 🚀
